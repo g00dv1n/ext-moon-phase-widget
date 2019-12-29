@@ -1,5 +1,6 @@
 {
   "name": "Current Moon Phase",
+  "short_name": "Current Moon Phase",
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Current moon phase, moon zodiac sign, moonset and moonrise time for you location",
