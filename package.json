@@ -4,7 +4,7 @@
   "description": "moon phase browser extention",
   "main": "index.js",
   "scripts": {
-    "pack": "zip -r ext-moon-phase-widget.zip extt",
+    "pack": "zip -r ext-moon-phase-widget.zip ext",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
