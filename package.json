@@ -1,0 +1,12 @@
+{
+  "name": "ext-moon-phase-widget",
+  "version": "1.0.0",
+  "description": "moon phase browser extention",
+  "main": "index.js",
+  "scripts": {
+    "pack": "zip -r ext-moon-phase-widget.zip extt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
