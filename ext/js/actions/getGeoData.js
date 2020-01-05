@@ -1,5 +1,7 @@
 const apiUrl = 'https://ipinfo.io/json';
 const locaStorageKey = 'mph-widget-geodata';
+// handle EDGE
+const storage = chrome && chrome.storage || browser.storage;
 
 
 const defaultGeo = {
@@ -17,7 +19,7 @@ const defaultGeo = {
 
 function chromeSetValue(key, value) {
     return new Promise(resolve => {
-        chrome.storage.local.set({[key]: value}, () => {
+        storage.local.set({[key]: value}, () => {
             resolve(value);
         });
     });
@@ -25,7 +27,7 @@ function chromeSetValue(key, value) {
 
 function chromeGetValue(key) {
     return new Promise(resolve => {
-        chrome.storage.local.get(key, data => {
+        storage.local.get(key, data => {
             resolve(data[key]);
         });
     });
