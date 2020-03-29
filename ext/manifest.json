@@ -1,7 +1,7 @@
 {
   "name": "Current Moon Phase",
   "short_name": "Current Moon Phase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Current moon phase, moon zodiac sign, moonset and moonrise time for you location",
   "homepage_url": "https://moonorganizer.com/en/moon-phase-for-today/",

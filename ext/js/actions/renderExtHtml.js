@@ -7,6 +7,9 @@ function normalizeUrl(link) {
 }
 
 export default function (moonPhaseData, geoData) {
+    moonPhaseData.link = 'https://moonorganizer.com/en/app/';
+    moonPhaseData.linkLabel = 'Get 25% off for Moon Calendar';
+
     return `
 <div class="mph-widget">
     <div class="mph-row">
@@ -34,7 +37,7 @@ export default function (moonPhaseData, geoData) {
         <div>Rise: </div>
         <div class="moon-time">${moonPhaseData.rise}</div>
     </div>
-    <div class="mph-row mph-link">
+    <div class="mph-row mph-link mph-promo">
         <a href="${normalizeUrl(moonPhaseData.link)}" target="_blank">${moonPhaseData.linkLabel}</a>
     </div>
 </div>

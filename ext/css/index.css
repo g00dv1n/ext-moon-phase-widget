@@ -73,3 +73,9 @@ body {
   color: #673ab7;
   text-decoration: underline;
 }
+
+.mph-promo.mph-link a:link,
+.mph-promo.mph-link a:visited {
+  color: green;
+  font-weight: bold;
+}
