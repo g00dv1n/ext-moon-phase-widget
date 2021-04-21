@@ -7,9 +7,6 @@ function normalizeUrl(link) {
 }
 
 export default function (moonPhaseData, geoData) {
-    moonPhaseData.link = 'https://moonorganizer.com/en/app/';
-    moonPhaseData.linkLabel = 'Get 25% off for Moon Calendar';
-
     return `
 <div class="mph-widget">
     <div class="mph-row">
